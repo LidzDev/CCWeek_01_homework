@@ -66,7 +66,7 @@ stop_check = len(numbers) - 1
 print(stop_check)
 while counter <= stop_check:
     if numbers[counter] == 13:
-        print("oh a 13")
+        # print("oh a 13")
         counter += 2
     else:
         sum_of_numbers += numbers[counter]
